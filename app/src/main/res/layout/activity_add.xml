@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorBlack1"
+        android:text="添加备忘录"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/box1"
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/box1"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:hint="输入备忘录主题"
+        android:background="@drawable/edit_bg"
+        android:id="@+id/name"
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_bg"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:hint="输入备忘录内容"
+        android:id="@+id/showContent"
+        />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@color/colorBlack1"
+       android:text="提交"
+       android:textSize="20dp"
+       android:gravity="center"
+       android:textAlignment="center"
+       android:id="@+id/submit_add"
+       android:layout_alignParentBottom="true"
+       />
+</RelativeLayout>
